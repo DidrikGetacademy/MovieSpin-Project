@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MovieSpin Backend Files.props" />
+</Project>

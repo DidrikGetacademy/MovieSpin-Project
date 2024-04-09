@@ -1,0 +1,2 @@
+@MovieSpin_Backend_Files_HostAddress = "Server=tcp:moviespindatabase.database.windows.net,1433;Initial Catalog=moviespindatabase.database.windows.net;Persist Security Info=False;User ID=didrikskjelbred;Password=Kvalder1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+

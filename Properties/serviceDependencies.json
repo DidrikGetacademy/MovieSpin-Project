@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets"
+    },
+    "http": {
+      "type": "http",
+      "connectionId": "ConnectionStrings:Server=tcp:moviespinserver.database.windows.net,1433",
+      "dynamicId": null
+    }
+  }
+}
