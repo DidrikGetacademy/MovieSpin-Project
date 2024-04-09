@@ -1,0 +1,11 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#1B3313",
+        "titleBar.activeBackground": "#25481A",
+        "titleBar.activeForeground": "#F7FBF6"
+    },
+    "liveServer.settings.port": 5003,
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/c6304817-2d94-4bcf-81d1-01dab71b71f7/resourceGroups/MovieSpinFolder/providers/Microsoft.Web/sites/Moviespin",
+    "appService.deploySubpath": "."
+    
+}

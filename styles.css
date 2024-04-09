@@ -1,0 +1,926 @@
+﻿body {
+  background-image: url("/image/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.generatorBox {
+  width: 48vh;
+  height: 35vh;
+  background-image: url("/image/back1.jpg");
+  background-color: rgb(15, 18, 24);
+  left: 50%;
+  top: 47vh;
+  z-index: 2;
+  position: absolute;
+  border-radius: 10%;
+  border-radius: 30px;
+}
+
+.titleDiv {
+  z-index: 3;
+  width: 250px;
+  height: 250px;
+  left: 50%;
+  position: relative;
+  top: 40vh;
+  background-color: rgb(0, 4, 255);
+  background-image: url("/image/back1.jpg");
+}
+.Generatorbox2 {
+  position: relative;
+  left: 32vh;
+}
+.selectgenre {
+  bottom: 163px;
+  left: 1%;
+}
+.type {
+  bottom: 86px;
+  left: -90px;
+}
+.platform {
+  left: -240px;
+}
+.nr1 {
+  left: -250px;
+}
+.nr2 {
+  top: -98px;
+  left: -120px;
+}
+.nr3 {
+  left: 20px;
+  top: -180px;
+}
+.randomSeriesRandomMovieerror {
+  display: center;
+  position: relative;
+  left: 56%;
+  align-items: center;
+  justify-content: center;
+  top: 50vh;
+  z-index: 4;
+}
+
+.ResultBox {
+  width: 340px;
+  height: 25px;
+  background-image: url("/image/background.jpg");
+  border-radius: 30px;
+  position: relative;
+  top: 13vh;
+  right: 35%;
+}
+.randomSeriesRandomMovie {
+  display: center;
+  position: relative;
+  left: 57%;
+  align-items: center;
+  justify-content: center;
+  top: 50.5vh;
+  z-index: 3;
+  color: white;
+}
+
+.RandomListDescription {
+  display: center;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  left: -2.3vh;
+}
+
+.SpinRandomGenre {
+  position: absolute;
+  top: 42vh;
+  left: 40vh;
+  z-index: 3;
+}
+
+h3 {
+  position: relative;
+  left: 45px;
+  bottom: 5px;
+  animation: lights 5s 750ms linear infinite;
+  font-size: 1.2em;
+}
+.GeneratorBtn {
+  position: relative;
+  bottom: -7vh;
+  left: -24vh;
+  width: 10vh;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgb(168, 197, 209);
+  z-index: 2;
+  cursor: pointer;
+  background-image: url("/image/back1.jpg");
+  color: rgb(23, 245, 215);
+}
+
+.EmptyList {
+  position: relative;
+  top: 6.7vh;
+  right: 45.5%;
+  width: 10vh;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgb(168, 197, 209);
+  z-index: 2;
+  cursor: pointer;
+  background-image: url("/image/back1.jpg");
+  color: rgb(23, 245, 215);
+}
+
+.AddMovieToList {
+  position: relative;
+  top: 7vh;
+  right: 120.5%;
+  width: 10vh;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgb(168, 197, 209);
+  z-index: 2;
+  cursor: pointer;
+  background-image: url("/image/back1.jpg");
+  color: rgb(23, 245, 215);
+}
+
+.TitleGenerator {
+  position: absolute;
+  left: 57%;
+  bottom: 52vh;
+  z-index: 3;
+}
+
+.listWheelOutLay {
+  width: 175px;
+  height: 370px;
+  position: relative;
+  left: 15.5%;
+  top: 44.95vh;
+  background-color: rgb(36, 58, 99);
+  opacity: 0.9;
+  background-image: url(./image/1.jpg);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.InventoryList {
+  background-image: url(./image/1.jpg);
+  width: 145px;
+  height: 370px;
+  background-color: rgb(8, 9, 12);
+  z-index: 1;
+  position: absolute;
+  left: 25.5%;
+  top: 46.53vh;
+  color: lightgoldenrodyellow;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.underline {
+  width: 550px;
+  height: 8px;
+  background-color: darkcyan;
+  position: relative;
+  left: 85px;
+}
+
+.loggregistrer {
+  border-radius: 25px;
+  width: 90px;
+  height: 30px;
+  background-color: grey;
+  color: light;
+  position: relative;
+  left: 1710px;
+  top: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .wheel-container {
+    margin-top: 10px; /* Adjust margin for smaller screens */
+    left: 0; /* Reset left position */
+  }
+
+  .spinbutton {
+    left: 0; /* Reset left position */
+  }
+
+  /* Add more adjustments as needed */
+}
+
+/* For larger screens */
+@media screen and (min-width: 1200px) {
+  .wheel-container {
+    margin-top: 20px; /* Adjust margin for larger screens */
+    left: 60px; /* Adjust left position for larger screens */
+  }
+
+  .spinbutton {
+    left: 35%; /* Adjust left position for larger screens */
+  }
+
+  /* Add more adjustments as needed */
+}
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Optional: Hide horizontal scrollbar */
+  overflow-y: auto; /* Optional: Add vertical scrollbar when needed */
+}
+
+.frontimage {
+  width: 97%;
+  height: 98%;
+  position: fixed;
+  display: flex;
+  left: 1.4%;
+}
+
+.wheel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  position: absolute;
+  top: 275px;
+  left: 60px;
+}
+
+.selectbox {
+  position: relative;
+  right: 10vh;
+  width: 10vh;
+  bottom: 2vh;
+  border-radius: 10px;
+  background-color: rgb(173, 174, 177);
+  background-image: url(/image/CinemaScreen.jpg);
+  color: white;
+}
+
+.wheel-section {
+  width: 50%;
+  height: 3%;
+  top: 146px;
+  left: 0px;
+  position: absolute;
+  transform-origin: 100%;
+  transform: rotate(89deg);
+  clip-path: polygon(0 0, 120% 0, 100% 65%);
+}
+
+.spinbutton {
+  margin-top: 8px;
+  width: 120px;
+  position: relative;
+  left: 46vh;
+  z-index: 2;
+  top: 45vh;
+  padding: 5px 5px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: 1px solid red;
+  background: black;
+  color: lightblue;
+  cursor: pointer;
+}
+
+.resetbtn {
+  margin-top: 8px;
+  width: 120px;
+  position: relative;
+  left: 46vh;
+  top: 44.6vh;
+  padding: 5px 5px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: 1px solid red;
+  background: black;
+  color: lightblue;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.button1 {
+  position: absolute;
+  border-radius: 60px;
+  width: 115px;
+  height: 40px;
+  background: url("/Image/netflix1.png") -83px 110px;
+  top: 2px;
+  left: 65%;
+  cursor: pointer;
+}
+
+.button2 {
+  position: absolute;
+  border-radius: 60px;
+  width: 115px;
+  height: 40px;
+  background: url("/Image/viaplay.jpeg") center;
+  background-size: cover;
+  top: 50px;
+  left: 65%;
+  cursor: pointer;
+}
+
+.button3 {
+  position: absolute;
+  border-radius: 60px;
+  width: 115px;
+  height: 40px;
+  background: url("/Image/disney.png") 5px -6px;
+  background-size: cover;
+  top: 100px;
+  left: 65%;
+  cursor: pointer;
+}
+
+.button4 {
+  position: absolute;
+  border-radius: 60px;
+  width: 115px;
+  height: 40px;
+  background: url("/Image/hbo.png") center;
+  background-size: cover;
+  top: 150px;
+  left: 65%;
+  cursor: pointer;
+}
+
+.button5 {
+  position: absolute;
+  border-radius: 60px;
+  width: 115px;
+  height: 40px;
+  background: url("/Image/popcorn.png") center;
+  background-size: cover;
+  top: 200px;
+  left: 65%;
+  cursor: pointer;
+}
+.buttoncontainer {
+  bottom: 43vh;
+  position: relative;
+}
+.button6 {
+  position: absolute;
+  border-radius: 60px;
+  width: 115px;
+  height: 40px;
+  background: url("/Image/youtube.webp") center;
+  background-size: cover;
+  top: 250px;
+  left: 65%;
+  cursor: pointer;
+}
+
+.backgroundimg {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+}
+
+.toppagebutton {
+  border-radius: 25px;
+  width: 90px;
+  height: 30px;
+  background-color: grey;
+  color: light;
+  position: relative;
+  left: 1145px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.Alert {
+  position: absolute;
+  left: 40%;
+  top: 25%;
+  color: rgb(197, 91, 91);
+}
+
+.Top5Movies {
+  text-align: center;
+  width: 260px;
+  height: 70px;
+  background-color: rgba(59, 101, 129, 0.39);
+  color: black;
+  position: relative;
+  right: 650px;
+  top: -950px;
+  cursor: pointer;
+}
+
+.overskriftRamme {
+  width: 34%;
+  height: 28%;
+  left: 33%;
+  position: relative;
+  position: fixed;
+}
+
+.overskriftbilde2 {
+  width: 32%;
+  height: 28%;
+  left: 66.5%;
+  position: relative;
+  position: fixed;
+}
+
+.overskriftbilde1 {
+  width: 32%;
+  height: 28%;
+  left: 1.4%;
+  position: relative;
+  position: fixed;
+}
+
+.FrontPageTitle {
+  position: absolute;
+  top: 200px;
+  left: 45%;
+  z-index: 1;
+}
+
+.CinemaPageTitle {
+  position: absolute;
+  top: 110px;
+  left: 41.5%;
+  z-index: 1;
+}
+
+.Top10ViewTitle {
+  position: absolute;
+  top: 180px;
+  left: 45.5%;
+  z-index: 1;
+}
+
+h1 {
+  margin: auto;
+  font-size: 3.5rem;
+  font-weight: 300;
+  animation: lights 5s 750ms linear infinite;
+}
+
+h2 {
+  margin: auto;
+  font-size: 2.2rem;
+  font-weight: 300;
+  position: absolute;
+  animation: lights 5s 750ms linear infinite;
+}
+
+.LoginBox {
+  position: absolute;
+  top: 49%;
+  left: 46%;
+  width: 125px;
+  height: 40px;
+  border-radius: 60%;
+  background-color: white;
+  cursor: pointer;
+  z-index: 3;
+  background-color: white;
+}
+.LabelRegpage {
+  color: white;
+  font-size: medium;
+  font-style: oblique;
+  position: relative;
+  right: 70px;
+}
+
+.RegisterBox {
+  position: absolute;
+  top: 90%;
+  right: 52%;
+  width: 125px;
+  height: 40px;
+  border-radius: 60%;
+  background-image: url("/image/back1.jpg");
+  color: white;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.RegInput {
+  background-color: rgb(47, 49, 128);
+  color: white;
+  position: relative;
+  right: 35%;
+}
+
+.formbox {
+  background-image: url("/image/omg.jpg");
+  border-radius: 15%;
+  box-shadow: #38288f;
+  top: 20%;
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  left: 41%;
+  z-index: 3;
+}
+
+.PasswordBox {
+  position: absolute;
+  top: 43%;
+  left: 45%;
+  background-color: rgba(51, 19, 24, 0.37);
+  color: white;
+  z-index: 3;
+}
+
+.UsernameBox {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  background-color: rgba(51, 19, 24, 0.37);
+  color: white;
+  z-index: 3;
+}
+#FrontLogin {
+  position: absolute;
+  width: 99%;
+  height: 99%;
+  background: url("/Image/gg.jpg") center;
+  background-size: cover;
+  margin: 0;
+}
+
+#batmanpitch {
+  position: absolute;
+  width: 60%;
+  height: 71%;
+  left: 40vh;
+  background: url("/Image/batman.jpg") center;
+  z-index: 1;
+}
+
+.loginTitle {
+  color: white;
+  position: absolute;
+  left: 43%;
+  top: 15%;
+  z-index: 3;
+}
+
+.EmailBox {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  background-color: rgba(51, 19, 24, 0.37);
+  color: white;
+}
+
+.Datebox {
+  position: absolute;
+  top: 25%;
+  left: 45%;
+  width: 9%;
+  background-color: rgba(51, 19, 24, 0.37);
+  color: white;
+}
+.form2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.RegisterBox {
+  width: 125px;
+  height: 40px;
+  border-radius: 60%;
+  background-image: url("/image/back1.jpg");
+  color: white;
+  cursor: pointer;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.RegisterHeadTitle {
+  position: absolute;
+  left: 38%;
+  top: 10%;
+  z-index: 3;
+}
+
+@keyframes lights {
+  0% {
+    color: hsl(325, 79%, 16%);
+    text-shadow: 0.5em -0.125em 0.25em hsla(345, 85%, 18%, 0.2),
+      -0.5em 0.125em 0.25em hsla(0, 78%, 26%, 0.4),
+      0 0 1em hsla(320, 100%, 50%, 0.5), 0 0 0.125em hsla(268, 90%, 23%, 0.5);
+  }
+
+  70% {
+    color: hsl(0, 80%, 52%);
+    text-shadow: 0 0 1em hsla(266, 75%, 33%, 0.5),
+      0 0 0.125em hsla(320, 100%, 60%, 0.5),
+      0.5em -0.125em 0.25em hsla(313, 81%, 24%, 0.2),
+      -0.5em 0.125em 0.25em hsla(355, 81%, 46%, 0.151);
+  }
+}
+
+#registrationForm {
+  margin-bottom: 20px;
+  z-index: 3;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  z-index: 3;
+}
+
+#registrationForm {
+  position: absolute;
+  left: 45%;
+  top: 20%;
+  z-index: 3;
+}
+.Usernamelabel {
+  position: absolute;
+  left: 45%;
+  top: 32.5%;
+  z-index: 3;
+}
+.PasswordLabel {
+  position: absolute;
+  left: 45%;
+  top: 40%;
+  z-index: 3;
+}
+
+.UsernameDisplay {
+  z-index: 2;
+  position: absolute;
+  top: 300px;
+  left: 250px;
+  color: white;
+}
+
+.Back {
+  margin-top: 8px;
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  left: 1vh;
+  padding: 5px 5px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: 1px solid red;
+  background: black;
+  color: lightblue;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.Alert {
+  position: absolute;
+  top: 30px;
+  left: 87vh;
+}
+
+.Forum {
+  margin-top: 8px;
+  width: 120px;
+  position: absolute;
+  left: 138.5vh;
+  padding: 5px 5px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: 1px solid red;
+  background: black;
+  color: lightblue;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.title {
+  position: absolute;
+  left: 82vh;
+  height: 100px;
+  top: 20.45%;
+}
+
+.StreamingBox {
+  position: absolute;
+  color: white;
+  top: 80.8vh;
+  height: 120.5px;
+  width: 666.9px;
+  margin: 20px;
+  left: 31.05%;
+  background-color: black;
+  z-index: 2;
+  transition: background-color 0.5s ease;
+  animation-duration: 0.5s;
+  animation: slideIn 1.1s ease backwards;
+  animation-fill-mode: both;
+  background: linear-gradient(to right, #24631b, transparent);
+  padding: 20px;
+}
+
+@keyframes dropdown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.StreamingBox:hover {
+  background-color: #333;
+}
+
+.slides img {
+  width: 37.2%;
+  position: relative;
+  left: 32%;
+  top: 30vh;
+  display: none;
+
+  animation: slideIn 1.1s ease backwards;
+}
+
+.slides img:first-child {
+  display: block;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+button.prev {
+  position: relative;
+  top: 80px;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  left: 30.82%;
+  padding: 10px;
+  z-index: 100;
+  transition: background-color 0.3s ease;
+}
+button.next {
+  position: relative;
+  top: 80px;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  left: 67.75%;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 100;
+  transition: background-color 0.3s ease;
+}
+
+button.prev:hover,
+button.next:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.imagess {
+  position: relative;
+  height: 45vh;
+}
+
+.Description {
+  width: 600px;
+}
+
+.Price {
+  width: 700px;
+  color: light;
+}
+
+li {
+  width: 100%;
+}
+
+.streamingWebsites2 {
+  margin-top: 8px;
+  width: 200px;
+  position: absolute;
+  left: 151vh;
+  top: 288px;
+  padding: 5px 5px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: 1px solid red;
+  background: black;
+  color: lightblue;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.slideshow {
+  white-space: nowrap;
+  animation: slideLeft 16s linear infinite; /* Adjust animation time as needed */
+}
+
+.slideshow img {
+  width: 200px; /* Adjust the width as needed */
+
+  display: inline-block;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(87%); /* Start from the right edge */
+  }
+  100% {
+    transform: translateX(-100%); /* Move all the way to the left edge */
+  }
+}
+
+.bilde2 {
+  height: 100px; /* Set the height of the second image */
+}
+
+.bilde3 {
+  height: 100px; /* Set the height of the second image */
+}
+
+.bilde4 {
+  height: 100px; /* Set the height of the fourth image */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 97.1%;
+  box-sizing: border-box;
+  display: flex;
+  top: 365px;
+  left: 1.4%;
+  display: hidden;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  text-align: left;
+  display: hidden;
+  cursor: pointer;
+  background-image: url(/image/batman.jpg);
+  color: white;
+  text-align: center;
+}
+
+.AddToListLabel {
+  z-index: 3;
+  position: relative;
+}
+
+.AddToListInput {
+  z-index: 3;
+  position: relative;
+}
+
+.AddToListButton {
+  z-index: 3;
+  position: relative;
+}
