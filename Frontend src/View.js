@@ -30,10 +30,10 @@ function Title() {
 
 function images() {
   return /*HTML*/ `
-        <img class="frontimage" src="image/batman.jpg" alt="">
-        <img class="overskriftRamme" src="image/cinemascreen.jpg">
-        <img class="overskriftbilde1" src="image/cinema.webp">
-        <img class="overskriftbilde2" src="image/family.jpg">`;}
+        <img class="frontimage" src="/image/batman.jpg" alt="">
+        <img class="overskriftRamme" src="/image/cinemascreen.jpg">
+        <img class="overskriftbilde1" src="/image/cinema.webp">
+        <img class="overskriftbilde2" src="/image/family.jpg">`;}
 
 
 
@@ -269,22 +269,22 @@ function Reklame(){
   return /*html*/ `
   <div>
   <div class="slideshow">
-    <img class="bilde1" src="image/1.jpg" >
-    <img class="bilde2" src="image/2.jpg">
-    <img class="bilde3" src="image/3.jpg" >
-    <img class="bilde4" src="image/4.jpg" >
-    <img class="bilde4" src="image/blacklist.jpg" >
-    <img class="bilde4" src="image/suits.jpg">
-    <img class="bilde4" src="image/open.jpg" >
-    <img class="bilde4" src="image/dune2.jpg" >
-    <img class="bilde4" src="image/wakanda.jpg" >
-    <img class="bilde4" src="image/hearth.jpg">
-    <img class="bilde4" src="image/lockedin.jpg" >
-    <img class="bilde4" src="image/ava.jpg" >
-    <img class="bilde4" src="image/spider.jpg" >
-    <img class="bilde4" src="image/narnia.jpg" >
-    <img class="bilde4" src="image/taken.jpg" >
-    <img class="bilde4" src="image/peaky.jpg" >
+    <img class="bilde1" src="/image/1.jpg" >
+    <img class="bilde2" src="/image/2.jpg">
+    <img class="bilde3" src="/image/3.jpg" >
+    <img class="bilde4" src="/image/4.jpg" >
+    <img class="bilde4" src="/image/blacklist.jpg" >
+    <img class="bilde4" src="/image/suits.jpg">
+    <img class="bilde4" src="/image/open.jpg" >
+    <img class="bilde4" src="/image/dune2.jpg" >
+    <img class="bilde4" src="/image/wakanda.jpg" >
+    <img class="bilde4" src="/image/hearth.jpg">
+    <img class="bilde4" src="/image/lockedin.jpg" >
+    <img class="bilde4" src="/image/ava.jpg" >
+    <img class="bilde4" src="/image/spider.jpg" >
+    <img class="bilde4" src="/image/narnia.jpg" >
+    <img class="bilde4" src="/image/taken.jpg" >
+    <img class="bilde4" src="/image/peaky.jpg" >
   </div>
 </div>
   `;
