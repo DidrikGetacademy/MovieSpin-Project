@@ -33,7 +33,8 @@ function images() {
         <img class="frontimage" src="image/batman.jpg" alt="">
         <img class="overskriftRamme" src="image/cinema.jpg">
         <img class="overskriftbilde1" src="image/cinema.webp">
-        <img class="overskriftbilde2" src="image/family.jpg">`;}
+        <img class="overskriftbilde2" src="image/family.jpg">`
+        ;}
 
 
 

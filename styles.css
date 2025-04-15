@@ -66,7 +66,7 @@
 .ResultBox {
   width: 340px;
   height: 25px;
-  background-image: url("/image/background.jpg");
+  background-image: url("image/background.jpg");
   border-radius: 30px;
   position: relative;
   top: 13vh;
@@ -129,7 +129,7 @@ h3 {
   background-color: rgb(168, 197, 209);
   z-index: 2;
   cursor: pointer;
-  background-image: url("/image/back1.jpg");
+  background-image: url("image/back1.jpg");
   color: rgb(23, 245, 215);
 }
 
@@ -143,7 +143,7 @@ h3 {
   background-color: rgb(168, 197, 209);
   z-index: 2;
   cursor: pointer;
-  background-image: url("/image/back1.jpg");
+  background-image: url("image/back1.jpg");
   color: rgb(23, 245, 215);
 }
 
@@ -162,13 +162,13 @@ h3 {
   top: 44.95vh;
   background-color: rgb(36, 58, 99);
   opacity: 0.9;
-  background-image: url("/image/1.jpg");
+  background-image: url("image/1.jpg");
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
 }
 
 .InventoryList {
-  background-image: url("/image/1.jpg");
+  background-image: url("image/1.jpg");
   width: 145px;
   height: 370px;
   background-color: rgb(8, 9, 12);
@@ -262,7 +262,7 @@ h3 {
   bottom: 2vh;
   border-radius: 10px;
   background-color: rgb(173, 174, 177);
-  background-image: url(/image/CinemaScreen.jpg);
+  background-image: url("image/CinemaScreen.jpg");
   color: white;
 }
 
@@ -314,7 +314,7 @@ h3 {
   border-radius: 60px;
   width: 115px;
   height: 40px;
-  background: url("/Image/netflix1.png") -83px 110px;
+  background: url("image/netflix1.png") -83px 110px;
   top: 2px;
   left: 65%;
   cursor: pointer;
@@ -325,7 +325,7 @@ h3 {
   border-radius: 60px;
   width: 115px;
   height: 40px;
-  background: url("/Image/viaplay.jpeg") center;
+  background: url("image/viaplay.jpeg") center;
   background-size: cover;
   top: 50px;
   left: 65%;
@@ -337,7 +337,7 @@ h3 {
   border-radius: 60px;
   width: 115px;
   height: 40px;
-  background: url("/Image/disney.png") 5px -6px;
+  background: url("image/disney.png") 5px -6px;
   background-size: cover;
   top: 100px;
   left: 65%;
@@ -349,7 +349,7 @@ h3 {
   border-radius: 60px;
   width: 115px;
   height: 40px;
-  background: url("/Image/hbo.png") center;
+  background: url("image/hbo.png") center;
   background-size: cover;
   top: 150px;
   left: 65%;
@@ -361,7 +361,7 @@ h3 {
   border-radius: 60px;
   width: 115px;
   height: 40px;
-  background: url("Image/popcorn.png") center;
+  background: url("image/popcorn.png") center;
   background-size: cover;
   top: 200px;
   left: 65%;
@@ -376,7 +376,7 @@ h3 {
   border-radius: 60px;
   width: 115px;
   height: 40px;
-  background: url("Image/youtube.webp") center;
+  background: url("image/youtube.webp") center;
   background-size: cover;
   top: 250px;
   left: 65%;
@@ -507,7 +507,7 @@ h2 {
   width: 125px;
   height: 40px;
   border-radius: 60%;
-  background-image: url("/image/back1.jpg");
+  background-image: url("image/back1.jpg");
   color: white;
   cursor: pointer;
   z-index: 3;
@@ -521,7 +521,7 @@ h2 {
 }
 
 .formbox {
-  background-image: url("/image/omg.jpg");
+  background-image: url("image/omg.jpg");
   border-radius: 15%;
   box-shadow: #38288f;
   top: 20%;
@@ -553,7 +553,7 @@ h2 {
   position: absolute;
   width: 99%;
   height: 99%;
-  background: url("/Image/gg.jpg") center;
+  background: url("image/gg.jpg") center;
   background-size: cover;
   margin: 0;
 }
@@ -563,7 +563,7 @@ h2 {
   width: 60%;
   height: 71%;
   left: 40vh;
-  background: url("/Image/batman.jpg") center;
+  background: url("image/batman.jpg") center;
   z-index: 1;
 }
 
@@ -602,7 +602,7 @@ h2 {
   width: 125px;
   height: 40px;
   border-radius: 60%;
-  background-image: url("/image/back1.jpg");
+  background-image: url("image/back1.jpg");
   color: white;
   cursor: pointer;
   margin-top: 20px; /* Adjust as needed */
@@ -905,7 +905,7 @@ li {
   text-align: left;
   display: hidden;
   cursor: pointer;
-  background-image: url(/image/batman.jpg);
+  background-image: url("image/batman.jpg");
   color: white;
   text-align: center;
 }
