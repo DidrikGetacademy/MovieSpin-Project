@@ -51,7 +51,7 @@ function slideImageFunction2 () {
   return /*html*/ `
       <div class="slider">
         <div class="slides">
-          <img class="imagess" src="image/HEYD.webp" alt="Image 1">
+          <img class="imagess" src="image/heyd.webp" alt="Image 1">
           <img class="imagess" src="image/rebel.jpg" alt="Image 2">
           <img class="imagess" src="image/hey.jpg" alt="Image 3">
         </div>
