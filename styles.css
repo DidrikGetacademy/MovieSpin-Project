@@ -115,7 +115,7 @@ h3 {
   background-color: rgb(168, 197, 209);
   z-index: 2;
   cursor: pointer;
-  background-image: url("/image/back1.jpg");
+  background-image: url("image/back1.jpg");
   color: rgb(23, 245, 215);
 }
 
