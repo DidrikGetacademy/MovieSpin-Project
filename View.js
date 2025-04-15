@@ -276,7 +276,7 @@ function Reklame(){
     <img class="bilde4" src="image/blacklist.jpg" >
     <img class="bilde4" src="image/suits.jpg">
     <img class="bilde4" src="image/open.jpg" >
-    <img class="bilde4" src="image/dune2.jpg" >
+    <img class="bilde4" src="image/badboys.jpg" >
     <img class="bilde4" src="image/wakanda.jpg" >
     <img class="bilde4" src="image/hearth.jpg">
     <img class="bilde4" src="image/lockedin.jpg" >
