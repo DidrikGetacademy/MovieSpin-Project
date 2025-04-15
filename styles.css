@@ -361,7 +361,7 @@ h3 {
   border-radius: 60px;
   width: 115px;
   height: 40px;
-  background: url("/Image/popcorn.png") center;
+  background: url("Image/popcorn.png") center;
   background-size: cover;
   top: 200px;
   left: 65%;
@@ -376,7 +376,7 @@ h3 {
   border-radius: 60px;
   width: 115px;
   height: 40px;
-  background: url("/Image/youtube.webp") center;
+  background: url("Image/youtube.webp") center;
   background-size: cover;
   top: 250px;
   left: 65%;

@@ -49,9 +49,9 @@ function slideImageFunction() {
   return /*html*/ `
     <div class="slider">
       <div class="slides">
-        <img class="imagess" src="/image/netflix.png" alt="Image 1">
-        <img class="imagess" src="/image/popcorn.png" alt="Image 2">
-        <img class="imagess" src="/image/hbo.png" alt="Image 3">
+        <img class="imagess" src="image/netflix.png" alt="Image 1">
+        <img class="imagess" src="image/popcorn.png" alt="Image 2">
+        <img class="imagess" src="image/hbo.png" alt="Image 3">
       </div>
       <button class="prev" onclick="ChangeSlide(-1)">&#10094;</button>
       <button class="next" onclick="ChangeSlide(1)">&#10095;</button>
@@ -116,11 +116,11 @@ function ChangeSlide(n) {
 
 function imagesBackground(){
   return /*HTML*/ `
-  <img class="overskriftRamme" src="/image/cinemaScreen.webp">
-        <img class="frontimage" src="/image/blacks.jpg" alt="">
-        <img class="overskriftRamme" src="/image/cinemaScreen.webp">
-        <img class="overskriftbilde1" src="/image/cinema.webp">
-        <img class="overskriftbilde2" src="/image/family.jpg">
+  <img class="overskriftRamme" src="image/cinemaScreen.webp">
+        <img class="frontimage" src="image/blacks.jpg" alt="">
+        <img class="overskriftRamme" src="image/cinemaScreen.webp">
+        <img class="overskriftbilde1" src="image/cinema.webp">
+        <img class="overskriftbilde2" src="image/family.jpg">
     `;
 }
 
